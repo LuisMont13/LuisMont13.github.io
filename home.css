@@ -4,18 +4,18 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #000000;
     font-family: 'Poppins', sans-serif;
 }
 label.logo{
     position: absolute;
     top: 15px;
     left: 16px;
-    color:Salmon;
+    color:#FA8072FF;
     font-weight:bold;
     font-size: 70px;
-    text-shadow: 0 0 0.5em white,
-    0 0 .125em salmon;
+    text-shadow: 0 0 0.5em #FFFFFF,
+    0 0 .125em #FA8072FF;
 }
 img{
     width:50px;
@@ -49,7 +49,7 @@ nav{
     content:'';
     width: 0%;
     height: 2px;
-    background-color: red;
+    background-color: #FF0000FF;
     display: block;
     margin: auto;
     transition: 0.4s;
@@ -61,7 +61,7 @@ nav{
 
 .text-box{
     width:90%;
-    color:white;
+    color:#FFFFFF;
     position:absolute;
     top:10%;
     left:50%;
@@ -95,7 +95,7 @@ nav .fa-bars{
     }
     .nav-links{
         position: absolute;
-        background: black;
+        background: #000000;
         height: 100vh;
         width: 200px;
         top: 0;
