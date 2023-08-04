@@ -4,16 +4,18 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-color:gray;
+    background-color:black;
     font-family: 'Poppins', sans-serif;
 }
 label.logo{
     position: absolute;
-    top: 45px;
+    top: 15px;
     left: 16px;
-    color:white;
+    color:Salmon;
     font-weight:bold;
-    font-size: 30px;
+    font-size: 70px;
+    text-shadow: 0 0 0.5em white,
+    0 0 .125em salmon;
 }
 img{
     width:50px;
@@ -68,14 +70,14 @@ nav{
 }
 
 .text-box h1{
-    font-size:62px;
+    font-size:70px;
 
 }
 .text-box h2{
     font-size:50px;
 }
 .text-box p{
-    font-size:14px;
+    font-size:20px;
 }
 nav .fa-xmark{
     display:none;
@@ -93,7 +95,7 @@ nav .fa-bars{
     }
     .nav-links{
         position: absolute;
-        background: gray;
+        background: black;
         height: 100vh;
         width: 200px;
         top: 0;
