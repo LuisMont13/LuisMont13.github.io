@@ -17,6 +17,7 @@ label.logo{
     text-shadow: 0 0 0.5em #FFFFFF,
     0 0 .125em #FA8072FF;
     line-height:40pt;
+    cursor:pointer;
     z-index:1;
 }
 
